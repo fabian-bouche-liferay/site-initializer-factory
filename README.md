@@ -21,6 +21,9 @@ You have to go to its site configuration to find out about its external referenc
 Include that external reference code in the client-extension.yaml file and deploy the CX
 for the site to be initialized with the site template.
 
+There's one issue though as this external reference code is random and cannot be
+predicted, it creates additional work in a multi-environment configuration.
+
 ## Industrialization
 
 The next step would be to find a way to dynamically create those client extensions
