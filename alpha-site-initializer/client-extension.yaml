@@ -1,0 +1,13 @@
+alpha-site-initializer:
+    name: Alpha Site Initializer
+    oAuthApplicationHeadlessServer: alpha-organization-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: bc52201e-ef27-517a-001e-71c0c1c31127
+    siteName: Liferay Alpha Organization
+    type: siteInitializer
+alpha-organization-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Alpha Organization Site Initializer OAuth Application Headless Server
+    scopes:
+        -   Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer

@@ -1,0 +1,8 @@
+{
+  "name": "my-site-initializer-lib",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "copy-assets": "./scripts/copy-assets.js"
+  }
+}

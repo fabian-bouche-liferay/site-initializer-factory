@@ -1,0 +1,11 @@
+{
+  "name": "beta-site-initializer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "my-site-initializer-lib": "./client-extensions/my-site-initializer-lib"
+  },
+  "scripts": {
+    "build": "node node_modules/my-site-initializer-lib/scripts/copy-assets.js"
+  }
+}

@@ -1,0 +1,13 @@
+beta-site-initializer:
+    name: Beta Site Initializer
+    oAuthApplicationHeadlessServer: beta-organization-site-initializer-oauth-application-headless-server
+    siteExternalReferenceCode: a61a3229-b56b-a44c-30fc-2fb715bb4cad
+    siteName: Liferay Beta Organization
+    type: siteInitializer
+beta-organization-site-initializer-oauth-application-headless-server:
+    .serviceAddress: localhost:8080
+    .serviceScheme: http
+    name: Beta Organization Site Initializer OAuth Application Headless Server
+    scopes:
+        -   Liferay.Headless.Site.everything
+    type: oAuthApplicationHeadlessServer
