@@ -11,6 +11,10 @@
 /dist
 /.settings
 
+# Ignore site-initializer but the folder itself
+/site-initializer/*
+!/site-initializer/.gitkeep
+
 # misc
 .DS_Store
 .env.local
