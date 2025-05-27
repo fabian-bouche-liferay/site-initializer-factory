@@ -25,3 +25,9 @@ for the site to be initialized with the site template.
 
 The next step would be to find a way to dynamically create those client extensions
 whenever a new site / organization is created.
+
+## Initialization only
+
+The CX deployment only works for the initial site initialization.
+
+I need to check what needs to be done for update to work.
